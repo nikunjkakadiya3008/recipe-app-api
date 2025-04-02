@@ -14,6 +14,7 @@ class Command(BaseCommand):
         while db_up is False and i <=5:
             try:
                 self.check(databases=['default'])
+                time.sleep(1)
                 db_up = True
             except (OperationalError, psycopg2opError) :
                 self.stdout.write("Trying Again")
