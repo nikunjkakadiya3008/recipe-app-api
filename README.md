@@ -18,7 +18,7 @@ Recipe-App-Api is a backend API built with Django Rest Framework that allows use
 - Python 3.x
 - Django
 - Django REST Framework
-- SQLite (or your configured database)
+- SQLite 
 
 ## Setup Instructions
 
