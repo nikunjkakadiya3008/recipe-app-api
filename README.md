@@ -19,7 +19,6 @@ Recipe-App-Api is a backend API built with Django Rest Framework that allows use
 - Django
 - Django REST Framework
 - SQLite (or your configured database)
-- JWT Authentication
 
 ## Setup Instructions
 
